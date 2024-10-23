@@ -1,0 +1,14 @@
+dbName:student_registration
+tableName:students
+columns:6
+
+id: INT, Auto Increment, Primary Key
+first_name: VARCHAR(50)
+last_name: VARCHAR(50)
+roll_no: VARCHAR(50), UNIQUE
+password: VARCHAR(255) 
+contact_number: VARCHAR(15)
+
+Calculator use components 
+for example use the buttons in the calculator as one component for reusability and then outputscreen as one component 
+and use all these components in app.js 
